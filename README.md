@@ -6,7 +6,7 @@ This is a solution for the [Biometry task](https://contest.yandex.ru/contest/284
 
 In this task, you need to predict the gender of the person whose speech is recorded on each of the files using sound files in `.wav` format (0 — man, 1 — woman).
 
-In order to complete this problem, you need to get an accuracy of more than 98 percent on the **[test dataset](https://yadi.sk/d/K8Z-_gQbspmxkhw)**.
+In order to complete this problem, you need to get an accuracy of more than 98% on the **[test dataset](https://disk.yandex.kz/d/K8Z-gQbspmxkhw)**.
 
 The **[training dataset](https://yadi.sk/d/IUUTPJFOfwn_OQ)** has a `targets.tsv` file that contains the correct gender values ​​for all records in the training dataset. You need to send a file similar to `targets.tsv` from the training set to the system. That is, for each `id.wav` file in the test dataset, the response file should contain a line like `id\tgender `
 

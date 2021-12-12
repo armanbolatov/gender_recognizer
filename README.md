@@ -12,9 +12,9 @@ The **[training dataset](https://yadi.sk/d/IUUTPJFOfwn_OQ)** has a `targets.tsv`
 
 ## Model evaluation
 
-The model I used is a sequential neural network that consists of an input layer with 512 neurons, 15 hidden layers (7 fully connected layers with 512, 256, 256, 128, 128, 64, 64 neurons in each, 8 dropout layers with a frequencies of 0.2-0.3), and an output layer with one neuron and a sigmoid activation function.
+The model is a sequential neural network that consists of an input layer with 512 neurons, 15 hidden layers (7 fully connected layers with 512, 256, 256, 128, 128, 64, 64 neurons in each, 8 dropout layers with frequencies of 0.2-0.3), and an output layer with one neuron and a sigmoid activation function.
 
-I chose an accuracy as the metric, since the dataset is balanced, and the Adam optimizer. After training with 130 epochs the model showed the accuracy of 98.01%.
+I chose an accuracy as a metric, since the dataset is balanced, and the Adam optimizer. After training with 130 epochs the model showed the accuracy of 98.01%.
 
 ## Technologies
 
